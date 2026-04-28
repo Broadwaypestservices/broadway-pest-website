@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><link href="https://broadwayexterminating.com/harlem-store" rel="canonical"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Broadway Pest Services | Harlem Store &amp; Service Center</title>
+<meta content="Broadway Pest Services retail store and service center at 69 St. Nicholas Ave, Harlem." name="description"/><meta content="website" property="og:type"/><meta content="https://broadwayexterminating.com/harlem-store" property="og:url"/><meta content="Broadway Pest Services | Harlem Store &amp; Service Center" property="og:title"/><meta content="Broadway Pest Services retail store and service center at 69 St. Nicholas Ave, Harlem." property="og:description"/><meta content="https://broadwayexterminating.com/images/og-image.jpg" property="og:image"/><meta content="Broadway Pest Services" property="og:site_name"/><meta content="summary_large_image" name="twitter:card"/><meta content="Broadway Pest Services | Harlem Store &amp; Service Center" name="twitter:title"/><meta content="Broadway Pest Services retail store and service center at 69 St. Nicholas Ave, Harlem." name="twitter:description"/><meta content="https://broadwayexterminating.com/images/og-image.jpg" name="twitter:image"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap"/></noscript>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --black: #0A0A0A; --black-mid: #141414; --black-soft: #1C1C1C;
+    --yellow: #F5C518; --yellow-dim: #B89010; --yellow-pale: #FEFAE8;
+    --white: #ffffff; --off-white: #F7F7F5;
+    --gray-light: #E8E8E6; --gray-mid: #9A9A97; --gray-text: #5A5A57;
+    --text: #111111;
+    --brick: #8B3A2A; --brick-light: #C4523C;
+    --serif: 'DM Serif Display', Georgia, serif;
+    --sans: 'DM Sans', system-ui, sans-serif;
+    --r: 3px; --rl: 6px;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--sans); color: var(--text); background: var(--white); line-height: 1.6; }
+
+  /* NAV */
+  nav { position: sticky; top: 0; z-index: 100; background: var(--black); padding: 0 2.5rem; display: flex; align-items: center; justify-content: space-between; height: 64px; border-bottom: 3px solid var(--yellow); }
+  .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .nav-logo-mark { width: 36px; height: 36px; background: var(--yellow); border-radius: 2px; display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 18px; color: var(--black); font-weight: 700; }
+  .nav-logo-text { font-family: var(--serif); font-size: 19px; color: var(--white); }
+  .nav-location-badge { background: rgba(245,197,24,0.15); border: 1px solid rgba(245,197,24,0.3); color: var(--yellow); font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 3px 10px; border-radius: 2px; margin-left: 4px; }
+  .nav-links { display: flex; align-items: center; gap: 2rem; }
+  .nav-links a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--yellow); }
+  .nav-cta { background: var(--yellow) !important; color: var(--black) !important; padding: 8px 20px; border-radius: var(--r); font-weight: 700 !important; font-size: 13px !important; }
+
+  /* HERO */
+  .hero { background: var(--black); min-height: 580px; display: flex; align-items: stretch; position: relative; overflow: hidden; }
+  .hero-bg-pattern { position: absolute; inset: 0; opacity: 0.04; background-image: repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(245,197,24,0.6) 39px, rgba(245,197,24,0.6) 40px), repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(245,197,24,0.6) 39px, rgba(245,197,24,0.6) 40px); }
+  .hero-accent { position: absolute; top: 0; right: 0; width: 45%; height: 100%; background: #111; clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%); }
+  .hero-inner { max-width: 1140px; margin: 0 auto; padding: 0 2.5rem; display: flex; align-items: center; width: 100%; position: relative; z-index: 2; gap: 4rem; }
+  .hero-left { flex: 0 0 52%; padding: 80px 0; }
+  .hero-right { flex: 1; display: flex; flex-direction: column; gap: 1rem; padding: 80px 0; }
+
+  .location-tag { display: inline-flex; align-items: center; gap: 8px; background: rgba(245,197,24,0.1); border: 1px solid rgba(245,197,24,0.3); color: var(--yellow); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 14px; border-radius: 2px; margin-bottom: 1.5rem; }
+  .location-tag::before { content: ''; width: 6px; height: 6px; background: var(--yellow); border-radius: 50%; display: inline-block; }
+
+  .hero h1 { font-family: var(--serif); font-size: clamp(34px, 4vw, 52px); color: var(--white); line-height: 1.08; margin-bottom: 1.25rem; }
+  .hero h1 em { color: var(--yellow); font-style: italic; }
+  .hero-address { font-size: 18px; color: rgba(255,255,255,0.5); margin-bottom: 0.5rem; font-weight: 500; }
+  .hero-address strong { color: rgba(255,255,255,0.8); }
+  .hero-sub { color: rgba(255,255,255,0.6); font-size: 16px; line-height: 1.75; margin-bottom: 2rem; max-width: 460px; }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
+  .btn-primary { background: var(--yellow); color: var(--black); padding: 13px 28px; border-radius: var(--r); font-weight: 700; font-size: 15px; text-decoration: none; display: inline-block; transition: background 0.2s, transform 0.15s; }
+  .btn-primary:hover { background: #FFD740; transform: translateY(-1px); }
+  .btn-ghost { border: 1px solid rgba(255,255,255,0.25); color: var(--white); padding: 13px 26px; border-radius: var(--r); font-weight: 500; font-size: 15px; text-decoration: none; display: inline-block; transition: border-color 0.2s; }
+  .btn-ghost:hover { border-color: rgba(255,255,255,0.5); }
+
+  .hero-trust { display: flex; flex-wrap: wrap; gap: 20px; }
+  .trust-item { display: flex; align-items: center; gap: 7px; font-size: 13px; color: rgba(255,255,255,0.45); }
+  .trust-item svg { opacity: 0.6; }
+
+  /* INFO CARDS (right side of hero) */
+  .info-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--rl); padding: 18px 20px; }
+  .info-card-label { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--yellow); margin-bottom: 8px; }
+  .info-card-content { color: rgba(255,255,255,0.8); font-size: 14px; line-height: 1.7; }
+  .info-card-content a { color: var(--yellow); text-decoration: none; }
+  .hours-row { display: flex; justify-content: space-between; font-size: 13px; padding: 3px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .hours-row:last-child { border-bottom: none; }
+  .hours-day { color: rgba(255,255,255,0.55); }
+  .hours-time { color: rgba(255,255,255,0.85); font-weight: 500; }
+  .open-badge { display: inline-block; background: rgba(34,197,94,0.15); color: #4ade80; border: 1px solid rgba(34,197,94,0.2); font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 2px; letter-spacing: 0.06em; margin-left: 8px; }
+
+  /* NEIGHBORHOOD STRIP */
+  .neighborhood-strip { background: var(--yellow); padding: 14px 2.5rem; display: flex; align-items: center; gap: 2rem; overflow: hidden; }
+  .strip-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--black); white-space: nowrap; flex-shrink: 0; }
+  .strip-divider { width: 1px; height: 18px; background: rgba(0,0,0,0.2); flex-shrink: 0; }
+  .strip-areas { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+  .strip-area { font-size: 13px; font-weight: 600; color: rgba(0,0,0,0.7); white-space: nowrap; }
+  .strip-area::before { content: '→ '; opacity: 0.5; }
+
+  /* TWO OFFERINGS */
+  .offerings { display: grid; grid-template-columns: 1fr 1fr; gap: 0; max-width: 100%; }
+  .offering { padding: 72px 60px; }
+  .offering-retail { background: var(--off-white); }
+  .offering-service { background: var(--black); }
+  .offering-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1.25rem; }
+  .offering-retail .offering-eyebrow { color: var(--yellow-dim); }
+  .offering-service .offering-eyebrow { color: var(--yellow); }
+  .offering h2 { font-family: var(--serif); font-size: clamp(28px, 3vw, 40px); line-height: 1.1; margin-bottom: 1.25rem; }
+  .offering-retail h2 { color: var(--black); }
+  .offering-service h2 { color: var(--white); }
+  .offering-retail h2 em { color: var(--brick-light); font-style: italic; }
+  .offering-service h2 em { color: var(--yellow); font-style: italic; }
+  .offering p { font-size: 16px; line-height: 1.75; margin-bottom: 2rem; }
+  .offering-retail p { color: var(--gray-text); }
+  .offering-service p { color: rgba(255,255,255,0.6); }
+  .product-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 2rem; }
+  .product-tag { background: var(--white); border: 1px solid var(--gray-light); border-radius: var(--r); padding: 8px 12px; font-size: 13px; font-weight: 500; color: var(--gray-text); display: flex; align-items: center; gap: 6px; }
+  .product-tag::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--yellow); flex-shrink: 0; }
+  .service-list { list-style: none; margin-bottom: 2rem; }
+  .service-list li { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.07); font-size: 15px; color: rgba(255,255,255,0.75); }
+  .service-list li::before { content: '→'; color: var(--yellow); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+  .service-list li:last-child { border-bottom: none; }
+  .btn-dark { background: var(--yellow); color: var(--black); padding: 13px 28px; border-radius: var(--r); font-weight: 700; font-size: 15px; text-decoration: none; display: inline-block; transition: background 0.2s; }
+  .btn-dark:hover { background: #FFD740; }
+  .btn-outline { border: 1px solid rgba(255,255,255,0.25); color: var(--white); padding: 13px 26px; border-radius: var(--r); font-weight: 500; font-size: 15px; text-decoration: none; display: inline-block; transition: border-color 0.2s; }
+  .btn-outline:hover { border-color: rgba(255,255,255,0.5); }
+
+  /* HISTORY BAND */
+  .history { background: var(--black-soft); padding: 72px 2.5rem; position: relative; overflow: hidden; }
+  .history::before { content: '50+'; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); font-family: var(--serif); font-size: 260px; color: rgba(245,197,24,0.04); line-height: 1; pointer-events: none; }
+  .history-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+  .history-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--yellow); margin-bottom: 1.25rem; }
+  .history h2 { font-family: var(--serif); font-size: clamp(28px, 3vw, 42px); color: var(--white); line-height: 1.1; margin-bottom: 1.25rem; }
+  .history h2 em { color: var(--yellow); font-style: italic; }
+  .history p { color: rgba(255,255,255,0.6); font-size: 16px; line-height: 1.8; margin-bottom: 1rem; }
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+  .timeline-item { display: flex; gap: 20px; padding: 18px 0; border-bottom: 1px solid rgba(255,255,255,0.07); align-items: flex-start; }
+  .timeline-item:last-child { border-bottom: none; }
+  .timeline-year { font-family: var(--serif); font-size: 18px; color: var(--yellow); min-width: 56px; padding-top: 2px; }
+  .timeline-text { color: rgba(255,255,255,0.65); font-size: 14px; line-height: 1.6; }
+  .timeline-text strong { color: rgba(255,255,255,0.85); display: block; font-size: 15px; margin-bottom: 2px; }
+
+  /* REVIEWS */
+  .reviews { background: var(--off-white); padding: 72px 2.5rem; }
+  .reviews-inner { max-width: 1100px; margin: 0 auto; }
+  .section-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--yellow-dim); margin-bottom: 0.75rem; }
+  .section-title { font-family: var(--serif); font-size: clamp(26px, 3vw, 38px); color: var(--black); line-height: 1.1; margin-bottom: 0.75rem; }
+  .section-sub { color: var(--gray-text); font-size: 16px; margin-bottom: 3rem; max-width: 520px; }
+  .stars { display: flex; gap: 3px; margin-bottom: 1rem; }
+  .star { color: var(--yellow); font-size: 16px; }
+  .review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .review-card { background: var(--white); border: 1px solid var(--gray-light); border-radius: var(--rl); padding: 28px; }
+  .review-stars { display: flex; gap: 3px; margin-bottom: 1rem; }
+  .review-text { font-size: 15px; color: var(--gray-text); line-height: 1.7; margin-bottom: 1.25rem; font-style: italic; }
+  .review-author { font-size: 13px; font-weight: 700; color: var(--black); }
+  .review-meta { font-size: 12px; color: var(--gray-mid); margin-top: 2px; }
+  .google-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--white); border: 1px solid var(--gray-light); border-radius: var(--r); padding: 8px 14px; font-size: 13px; font-weight: 600; color: var(--gray-text); margin-top: 2.5rem; text-decoration: none; }
+
+  /* SERVICE AREA MAP-STYLE */
+  .service-area { background: var(--black); padding: 72px 2.5rem; }
+  .service-area-inner { max-width: 1100px; margin: 0 auto; }
+  .service-area h2 { font-family: var(--serif); font-size: clamp(26px, 3vw, 38px); color: var(--white); margin-bottom: 0.75rem; }
+  .service-area h2 em { color: var(--yellow); font-style: italic; }
+  .service-area .section-sub { color: rgba(255,255,255,0.55); }
+  .area-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 2.5rem; }
+  .area-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.09); border-radius: var(--rl); padding: 22px 20px; transition: border-color 0.2s, background 0.2s; }
+  .area-card:hover { border-color: rgba(245,197,24,0.3); background: rgba(245,197,24,0.04); }
+  .area-name { font-weight: 700; font-size: 15px; color: var(--white); margin-bottom: 6px; }
+  .area-desc { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.5; }
+  .area-dist { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: var(--yellow); margin-top: 8px; text-transform: uppercase; }
+
+  /* CTA */
+  .cta { background: var(--yellow); padding: 80px 2.5rem; text-align: center; }
+  .cta h2 { font-family: var(--serif); font-size: clamp(28px, 3.5vw, 46px); color: var(--black); line-height: 1.1; margin-bottom: 1rem; }
+  .cta h2 em { font-style: italic; }
+  .cta p { font-size: 17px; color: rgba(0,0,0,0.6); max-width: 520px; margin: 0 auto 2rem; line-height: 1.7; }
+  .cta-actions { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+  .btn-black { background: var(--black); color: var(--white); padding: 14px 32px; border-radius: var(--r); font-weight: 700; font-size: 15px; text-decoration: none; display: inline-block; transition: background 0.2s; }
+  .btn-black:hover { background: #222; }
+  .btn-black-outline { border: 2px solid rgba(0,0,0,0.25); color: var(--black); padding: 13px 28px; border-radius: var(--r); font-weight: 600; font-size: 15px; text-decoration: none; display: inline-block; transition: border-color 0.2s; }
+  .btn-black-outline:hover { border-color: rgba(0,0,0,0.5); }
+
+  /* FOOTER */
+  footer { background: var(--black); padding: 48px 2.5rem 32px; border-top: 1px solid rgba(255,255,255,0.08); }
+  .footer-inner { max-width: 1100px; margin: 0 auto; }
+  .footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 2.5rem; }
+  .footer-logo { font-family: var(--serif); font-size: 20px; color: var(--white); margin-bottom: 0.5rem; }
+  .footer-tagline { font-size: 14px; color: rgba(255,255,255,0.4); line-height: 1.6; margin-bottom: 1rem; }
+  .footer-address { font-size: 14px; color: rgba(255,255,255,0.55); line-height: 1.7; margin-bottom: 0.5rem; }
+  .footer-phone { font-size: 16px; font-weight: 700; color: var(--yellow); text-decoration: none; }
+  .footer-col h4 { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 1rem; }
+  .footer-col a { display: block; color: rgba(255,255,255,0.55); text-decoration: none; font-size: 14px; margin-bottom: 0.5rem; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--yellow); }
+  .footer-bottom { display: flex; justify-content: space-between; align-items: center; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.07); }
+  .footer-copy { font-size: 12px; color: rgba(255,255,255,0.25); }
+  .footer-certmarks { display: flex; gap: 12px; font-size: 12px; color: rgba(255,255,255,0.25); }
+  .footer-certmarks span:not(:last-child)::after { content: '·'; margin-left: 12px; }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .offerings { grid-template-columns: 1fr; }
+    .offering { padding: 52px 32px; }
+    .history-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+    .review-grid { grid-template-columns: 1fr; }
+    .area-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .hero-inner { flex-direction: column; padding: 52px 1.5rem; gap: 2rem; }
+    .hero-left, .hero-right { padding: 0; }
+    .hero-accent { display: none; }
+  }
+  @media (max-width: 600px) {
+    nav { padding: 0 1.25rem; }
+    .nav-links { display: none; }
+    .neighborhood-strip { gap: 1rem; padding: 12px 1.25rem; }
+    .area-grid { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr; }
+    .history::before { font-size: 160px; }
+  }
+
+/* MOBILE NAV - hamburger */
+.hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;cursor:pointer;padding:8px;background:none;border:none;margin-left:auto}
+.hamburger span{display:block;width:22px;height:2px;background:rgba(255,255,255,.7);transition:all .25s}
+@media(max-width:768px){
+  .hamburger{display:flex}
+  .nav-links{display:none;flex-direction:column;position:absolute;top:62px;left:0;right:0;background:rgba(8,8,8,.97);padding:1rem 1.5rem 1.5rem;gap:0;border-bottom:2px solid var(--yellow);z-index:199}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:.65rem 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:15px}
+  .nav-links a:last-child{border-bottom:none}
+  .nav-cta{margin-top:.5rem;text-align:center;padding:10px 20px!important}
+  .nav-phone{display:none}
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Broadway Pest Services \u2014 Harlem Store","url":"https://broadwayexterminating.com/harlem-store","description":"Broadway Pest Services retail store and service center at 69 St. Nicholas Ave, Harlem.","telephone":"+12126632100","priceRange":"$$","address":{"@type":"PostalAddress","streetAddress":"69 St. Nicholas Ave","addressLocality":"New York","addressRegion":"NY","postalCode":"10026","addressCountry":"US"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"09:00","closes":"18:00"}]}</script><style>
+.fsocial{display:flex;gap:14px;margin-top:16px;}
+.fsocial a{color:rgba(255,255,255,0.55);transition:color .2s;}
+.fsocial a:hover{color:#f5c518;}
+</style>
+</head>
+<body>
+<!-- NAV -->
+<nav>
+<a class="nav-logo" href="/">
+<div class="nav-logo-mark">B</div>
+<span class="nav-logo-text">Broadway Pest Services</span>
+<span class="nav-location-badge">Harlem</span>
+</a>
+<div class="nav-links">
+<a href="/commercial">Commercial</a>
+<a href="/residential">Residential</a>
+<a href="/services">Services</a>
+<a href="/areas-we-serve">Areas We Service</a>
+<a class="nav-cta" href="https://broadwayexterminating.pestportals.com/landing/index" rel="noopener" target="_blank">Client Portal</a>
+</div>
+<button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+</nav>
+<!-- HERO -->
+<section class="hero">
+<div class="hero-bg-pattern"></div>
+<div class="hero-accent"></div>
+<div class="hero-inner">
+<div class="hero-left">
+<div class="location-tag">Harlem Retail Store &amp; Service Center</div>
+<h1>New York's <em>original</em> pest control store. Now in Harlem.</h1>
+<p class="hero-address"><strong>69 St. Nicholas Ave</strong> at W 114th St, New York, NY 10026</p>
+<p class="hero-sub">Walk in for professional-grade products you won't find anywhere else in the city — or call us for same-day service across Harlem, Washington Heights, and the Upper West Side.</p>
+<div class="hero-actions">
+<a class="btn-primary" href="tel:2126632100">Call (212) 663-2100</a>
+<a class="btn-ghost" href="https://buybroadwaypest.com" target="_blank">Shop Products Online →</a>
+</div>
+<div class="hero-trust">
+<span class="trust-item">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          In business since 1970
+        </span>
+<span class="trust-item">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+          4.9 stars on Google
+        </span>
+<span class="trust-item">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Serving Upper Manhattan &amp; NJ
+        </span>
+<span class="trust-item">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+          Walk-in retail store
+        </span>
+</div>
+</div>
+<div class="hero-right">
+<div class="info-card">
+<div class="info-card-label">Store Hours <span class="open-badge">Open Today</span></div>
+<div class="info-card-content">
+<div class="hours-row"><span class="hours-day">Mon – Fri</span><span class="hours-time">8:00 AM – 3:30 PM</span></div>
+<div class="hours-row"><span class="hours-day">Saturday</span><span class="hours-time">8:00 AM – 4:00 PM</span></div>
+<div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-time">Closed</span></div>
+</div>
+</div>
+<div class="info-card">
+<div class="info-card-label">Get Here</div>
+<div class="info-card-content">
+          69 St. Nicholas Ave at W 114th St<br/>
+          New York, NY 10026<br/><br/>
+<strong style="color:rgba(255,255,255,0.55);font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;">Transit</strong><br/>
+          B/C trains to 110th St · 2/3 to 116th St<br/>
+          M11 bus stops at the door<br/><br/>
+<a href="https://maps.google.com/?q=69+St+Nicholas+Ave+New+York+NY+10026" target="_blank">→ Open in Google Maps</a>
+</div>
+</div>
+<div class="info-card">
+<div class="info-card-label">Same-Day Service Dispatch</div>
+<div class="info-card-content">
+          This location dispatches technicians across upper Manhattan. Call before noon for same-day scheduling.<br/><br/>
+<a href="tel:2126632100" style="font-size:18px;font-weight:700;">(212) 663-2100</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- NEIGHBORHOOD STRIP -->
+<div class="neighborhood-strip">
+<span class="strip-label">Serving</span>
+<div class="strip-divider"></div>
+<div class="strip-areas">
+<span class="strip-area">Harlem</span>
+<span class="strip-area">West Harlem</span>
+<span class="strip-area">East Harlem</span>
+<span class="strip-area">Morningside Heights</span>
+<span class="strip-area">Upper West Side</span>
+<span class="strip-area">Washington Heights</span>
+<span class="strip-area">Inwood</span>
+<span class="strip-area">Hamilton Heights</span>
+</div>
+</div>
+<!-- TWO OFFERINGS -->
+<section class="offerings">
+<div class="offering offering-retail">
+<div class="offering-eyebrow">Walk-In Retail Store</div>
+<h2>Pro products,<br/><em>no license needed.</em></h2>
+<p>We carry professional-strength pest control products the public can buy directly — the same formulations our technicians use. You won't find these at a hardware store. Bring your pest problem and we'll point you to the right solution.</p>
+<div class="product-grid">
+<div class="product-tag">Roach baits &amp; gels</div>
+<div class="product-tag">Rodent stations</div>
+<div class="product-tag">Bed bug treatments</div>
+<div class="product-tag">Moth traps &amp; lures</div>
+<div class="product-tag">Insect growth regulators</div>
+<div class="product-tag">Exclusion materials</div>
+<div class="product-tag">IPM monitoring</div>
+<div class="product-tag">Sprayers &amp; equipment</div>
+</div>
+<a class="btn-dark" href="https://buybroadwaypest.com" target="_blank">Browse the Online Store →</a>
+</div>
+<div class="offering offering-service">
+<div class="offering-eyebrow">Residential &amp; Commercial Service</div>
+<h2>Same-day dispatch,<br/><em>50 years</em> of expertise.</h2>
+<p>Our Harlem service center dispatches licensed technicians across upper Manhattan. From a single apartment to a full apartment building — we know this neighborhood's buildings, and we know how pests move through them.</p>
+<ul class="service-list">
+<li>Bed bug inspection, heat treatment &amp; prevention</li>
+<li>Rodent exclusion &amp; ongoing monitoring</li>
+<li>Cockroach elimination (German &amp; American)</li>
+<li>DOH &amp; HPD compliance documentation</li>
+<li>Residential recurring IPM programs</li>
+<li>Commercial &amp; restaurant pest management</li>
+<li>Clothes moth &amp; pantry pest treatment</li>
+</ul>
+<div style="display:flex;gap:1rem;flex-wrap:wrap;">
+<a class="btn-dark" href="tel:2126632100">Call for Same-Day Service</a>
+<a class="btn-outline" href="/contact">Request a Quote</a>
+</div>
+</div>
+</section>
+<!-- HISTORY -->
+<section class="history">
+<div class="history-inner">
+<div>
+<div class="history-eyebrow">Our Story in Upper Manhattan</div>
+<h2>Five decades of <em>staying power</em> in this neighborhood.</h2>
+<p>We didn't just set up a location in Harlem — we grew up in upper Manhattan. Broadway Pest has been serving the families and businesses of this community since the early 1970s, long before it was fashionable.</p>
+<p>When the rent on Amsterdam Avenue got too steep, we didn't leave the neighborhood. We moved a few blocks to St. Nicholas, because our customers are here and we're not going anywhere.</p>
+</div>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-year">1970</div>
+<div class="timeline-text"><strong>Founded on Broadway at 176th St</strong>Deep roots in upper Manhattan from day one.</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-year">'80s</div>
+<div class="timeline-text"><strong>Moved to the Upper West Side</strong>25+ years at 98th &amp; Amsterdam Avenue serving the UWS.</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-year">2024</div>
+<div class="timeline-text"><strong>Relocated to 69 St. Nicholas Ave</strong>New home in South Harlem at 114th St — same community, same team.</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-year">Today</div>
+<div class="timeline-text"><strong>Retail + Service + Same-Day Dispatch</strong>Walk-in store, dispatch hub, and commercial service center for all of upper Manhattan.</div>
+</div>
+</div>
+</div>
+</section>
+<!-- REVIEWS -->
+<section class="reviews">
+<div class="reviews-inner">
+<div class="section-eyebrow">Google Reviews · 5.0 Stars</div>
+<h2 class="section-title">What our neighbors say.</h2>
+<p class="section-sub">We've been earning the trust of this community for over 50 years. Here's what our customers have to say.</p>
+<div class="review-grid">
+<div class="review-card">
+<div class="review-stars">★★★★★</div>
+<p class="review-text">"Great service. Very informed technicians. I needed them quickly and they delivered above and beyond. Fairly priced and very thorough work. I will be using them on a regular basis."</p>
+<div class="review-author">Maria C.</div>
+<div class="review-meta">Harlem · October 2025</div>
+</div>
+<div class="review-card">
+<div class="review-stars">★★★★★</div>
+<p class="review-text">"Broadway has serviced our brownstone for many years. We have been very pleased with their service, especially Victor. Victor knows our building and makes sure it is clear of all pests. He's great."</p>
+<div class="review-author">Judy H.</div>
+<div class="review-meta">Upper West Side · October 2025</div>
+</div>
+<div class="review-card">
+<div class="review-stars">★★★★★</div>
+<p class="review-text">"Victor was incredibly thorough, thoughtful and helpful. He had some great stories to share while he worked, as an added bonus! I can't recommend him enough!"</p>
+<div class="review-author">Verified Customer</div>
+<div class="review-meta">Manhattan · 2025</div>
+</div>
+</div>
+<a class="google-badge" href="https://maps.google.com/?q=Broadway+Pest+Services+69+St+Nicholas+Ave" target="_blank">
+<svg fill="none" height="16" viewbox="0 0 24 24" width="16"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg>
+      See all reviews on Google Maps
+    </a>
+</div>
+</section>
+<!-- SERVICE AREA -->
+<section class="service-area">
+<div class="service-area-inner">
+<div class="section-eyebrow" style="color:var(--yellow);opacity:0.8">Service Coverage</div>
+<h2>We know every block <em>uptown.</em></h2>
+<p class="section-sub" style="color:rgba(255,255,255,0.5)">Dispatching from 69 St. Nicholas — we're your fastest option for same-day service across upper Manhattan.</p>
+<div class="area-grid">
+<div class="area-card">
+<div class="area-name">Harlem</div>
+<div class="area-desc">110th–145th St, Central Park North to the Hudson</div>
+<div class="area-dist">Home base</div>
+</div>
+<div class="area-card">
+<div class="area-name">West Harlem</div>
+<div class="area-desc">St. Nicholas Ave corridor, Hamilton Heights, Sugar Hill</div>
+<div class="area-dist">Walking distance</div>
+</div>
+<div class="area-card">
+<div class="area-name">Morningside Heights</div>
+<div class="area-desc">Columbia University area, Riverside Drive buildings</div>
+<div class="area-dist">5 min</div>
+</div>
+<div class="area-card">
+<div class="area-name">Upper West Side</div>
+<div class="area-desc">72nd–110th St, Central Park West, Broadway, Riverside Dr</div>
+<div class="area-dist">10 min</div>
+</div>
+<div class="area-card">
+<div class="area-name">Upper East Side</div>
+<div class="area-desc">72nd–96th St, Park Ave, Lexington, First Ave buildings</div>
+<div class="area-dist">15 min</div>
+</div>
+<div class="area-card">
+<div class="area-name">Washington Heights</div>
+<div class="area-desc">145th–181st St, dense residential and commercial</div>
+<div class="area-dist">10 min</div>
+</div>
+<div class="area-card">
+<div class="area-name">Inwood</div>
+<div class="area-desc">181st St north, Sherman Ave, Dyckman St corridor</div>
+<div class="area-dist">15 min</div>
+</div>
+<div class="area-card">
+<div class="area-name">East Harlem</div>
+<div class="area-desc">Spanish Harlem, 96th–125th St east of 5th Ave</div>
+<div class="area-dist">10 min</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA -->
+<section class="cta">
+<h2>Come in, call, or <em>get a quote.</em></h2>
+<p>Walk into our store at 69 St. Nicholas Ave and bring your pest problem — or call us before noon for same-day service at your home or business.</p>
+<div class="cta-actions">
+<a class="btn-black" href="tel:2126632100">Call (212) 663-2100</a>
+<a class="btn-black-outline" href="/contact">Request a Free Assessment</a>
+<a class="btn-black-outline" href="https://buybroadwaypest.com" target="_blank">Shop Online</a>
+</div>
+</section>
+<!-- FOOTER -->
+<footer>
+<div class="footer-inner">
+<div class="footer-top">
+<div>
+<div class="footer-logo">Broadway Pest Services</div>
+<p class="footer-tagline">Upper Manhattan's pest control neighbor for over 50 years. Two locations serving all of NYC.</p>
+<a class="footer-phone" href="tel:2126632100">(212) 663-2100</a>
+<p class="footer-address" style="margin-top:10px;">
+<strong style="color:rgba(255,255,255,0.7);">Harlem Store</strong><br/>
+          69 St. Nicholas Ave at 114th St<br/>New York, NY 10026
+        </p>
+<p class="footer-address" style="margin-top:8px;">
+<strong style="color:rgba(255,255,255,0.7);">Main Office</strong><br/>
+          213 W 35th St, Suite 802A<br/>New York, NY 10001
+        </p>
+<div class="fsocial">
+<a href="https://www.facebook.com/Broadwaypestservices" target="_blank" rel="noopener" aria-label="Facebook">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+</a>
+<a href="https://x.com/broadwaypests" target="_blank" rel="noopener" aria-label="X / Twitter">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+</a>
+<a href="https://www.linkedin.com/company/broadway-exterminating-co-inc" target="_blank" rel="noopener" aria-label="LinkedIn">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+</a>
+<a href="https://www.instagram.com/callbroadway/" target="_blank" rel="noopener" aria-label="Instagram">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+</a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Commercial</h4>
+<a href="/property-management">Property Management</a>
+<a href="/restaurants">Restaurants &amp; DOH</a>
+<a href="/hotels">Hotels &amp; Hospitality</a>
+<a href="/food-processing">Food Processing</a>
+<a href="/office-buildings">Office Buildings</a>
+</div>
+<div class="footer-col">
+<h4>Services</h4>
+<a href="/bed-bug-control">Bed Bug Control</a>
+<a href="/rodent-control">Rodent Control</a>
+<a href="/cockroach-control">Cockroach Control</a>
+<a href="/ipm-programs">IPM Programs</a>
+<a href="/residential">Residential</a>
+</div>
+<div class="footer-col">
+<h4>Areas We Service</h4>
+<a href="/brooklyn-pest-control">Brooklyn</a>
+<a href="/bergen-county">Bergen County NJ</a>
+<a href="/manhattan-pest-control">Manhattan</a>
+<a href="/upper-west-side">Upper West Side</a>
+<a href="/upper-east-side">Upper East Side</a>
+<a href="/harlem">Harlem (this location)</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p class="footer-copy">© 2025 Broadway Pest Services. All rights reserved.</p>
+<div class="footer-certmarks">
+        MWBE Certified  ·  QualityPro Certified  ·  NYC Licensed &amp; Insured
+      </div>
+</div>
+</div>
+</footer>
+<script>
+(function(){
+  var btn=document.querySelector('.hamburger');
+  var menu=document.querySelector('.nav-links');
+  if(btn&&menu){
+    var open=false;
+    btn.addEventListener('click',function(){
+      open=!open;
+      if(open){menu.classList.add('open');}else{menu.classList.remove('open');}
+    });
+  }
+})();
+</script>
+</body>
+</html>

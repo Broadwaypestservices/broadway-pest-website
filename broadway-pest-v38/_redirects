@@ -1,0 +1,251 @@
+# Broadway Pest Services — 301 Redirects
+# Last updated: 2026-04-18
+# Covers all old WordPress URLs still indexed by Google
+
+# ─────────────────────────────────────────
+# OLD WORDPRESS PAGES (still in Google index)
+# ─────────────────────────────────────────
+
+# About / Why Choose
+/about-us                               /about                             301
+/about-us/                              /about                             301
+/why-choose-broadway-pest-services      /about                             301
+/why-choose-broadway-pest-services/     /about                             301
+/why-choose-us                          /about                             301
+/why-choose-us/                         /about                             301
+
+# Contact
+/contact-us                             /contact                           301
+/contact-us/                            /contact                           301
+/free-quote                             /contact                           301
+/free-quote/                            /contact                           301
+/get-a-quote                            /contact                           301
+/get-a-quote/                           /contact                           301
+/free-estimate                          /contact                           301
+/free-estimate/                         /contact                           301
+/request-service                        /contact                           301
+/request-service/                       /contact                           301
+
+# Reviews / Customer pages
+/customer-reviews                       /about                             301
+/customer-reviews/                      /about                             301
+/testimonials                           /about                             301
+/testimonials/                          /about                             301
+/reviews                                /about                             301
+/reviews/                               /about                             301
+
+# Employment / misc
+/refer-a-friend                         /contact                           301
+/refer-a-friend/                        /contact                           301
+/broadway-employment-application        /about                             301
+/broadway-employment-application/       /about                             301
+/careers                                /about                             301
+/careers/                               /about                             301
+/employment                             /about                             301
+/employment/                            /about                             301
+
+# ─────────────────────────────────────────
+# SERVICE PAGES (old slugs → new pages)
+# ─────────────────────────────────────────
+
+# Commercial (old generic page → homepage)
+/commercial-pest-control                /commercial                        301
+/commercial-pest-control/               /commercial                        301
+/commercial-services                    /commercial                        301
+/commercial-services/                   /commercial                        301
+
+# Residential
+/residential-pest-control               /residential                       301
+/residential-pest-control/              /residential                       301
+
+# Property / Apartments
+/apartment-building-pest-control        /property-management               301
+/apartment-building-pest-control/       /property-management               301
+/property-management-pest-control       /property-management               301
+/property-management-pest-control/      /property-management               301
+
+# Offices
+/office-building-pest-control           /office-buildings                  301
+/office-building-pest-control/          /office-buildings                  301
+/office-pest-control                    /office-buildings                  301
+/office-pest-control/                   /office-buildings                  301
+
+# Restaurants / Food
+/restaurant-pest-control                /restaurants                       301
+/restaurant-pest-control/               /restaurants                       301
+/food-service-pest-control              /restaurants                       301
+/food-service-pest-control/             /restaurants                       301
+/hospitality-and-food-service           /restaurants                       301
+/hospitality-and-food-service/          /restaurants                       301
+
+# Hotels / Hospitality
+/hotel-pest-control                     /hotels                            301
+/hotel-pest-control/                    /hotels                            301
+/hospitality-pest-control               /hotels                            301
+/hospitality-pest-control/              /hotels                            301
+
+# Bed Bugs
+/bed-bugs                               /bed-bug-control                   301
+/bed-bugs/                              /bed-bug-control                   301
+/bedbug-control                         /bed-bug-control                   301
+/bedbug-control/                        /bed-bug-control                   301
+
+# Rodents
+/rat-and-mice-control                   /rodent-control                    301
+/rat-and-mice-control/                  /rodent-control                    301
+/mouse-control                          /rodent-control                    301
+/mouse-control/                         /rodent-control                    301
+/rat-control                            /rodent-control                    301
+/rat-control/                           /rodent-control                    301
+/mice-control                           /rodent-control                    301
+/mice-control/                          /rodent-control                    301
+
+# Cockroaches
+/roach-control                          /cockroach-control                 301
+/roach-control/                         /cockroach-control                 301
+
+# Moths
+/clothes-meal-moth-control              /clothes-moth-control              301
+/clothes-meal-moth-control/             /clothes-moth-control              301
+/cloth-moth-control                     /clothes-moth-control              301
+/cloth-moth-control/                    /clothes-moth-control              301
+/moth-control                           /clothes-moth-control              301
+/moth-control/                          /clothes-moth-control              301
+
+# Other pests
+
+# ─────────────────────────────────────────
+# AREAS — OLD TRAILING SLASH VARIANTS
+# ─────────────────────────────────────────
+
+# Borough pages (old WordPress had trailing slashes)
+
+/areas-we-serve                           /services                          301
+/areas-we-serve/                          /services                          301
+
+# Harlem
+/harlem-pest-control                    /harlem                            301
+/harlem-pest-control/                   /harlem                            301
+
+# Neighborhood pages (old slugs)
+/brooklyn-heights-pest-control          /brooklyn-heights                  301
+/brooklyn-heights-pest-control/         /brooklyn-heights                  301
+/williamsburg-pest-control-2            /williamsburg                      301
+/williamsburg-pest-control-2/           /williamsburg                      301
+/williamsburg-pest-control              /williamsburg                      301
+/williamsburg-pest-control/             /williamsburg                      301
+/uppereastside-pest-control             /upper-east-side                   301
+/uppereastside-pest-control/            /upper-east-side                   301
+/upper-east-side-pest-control           /upper-east-side                   301
+/upper-east-side-pest-control/          /upper-east-side                   301
+/upper-west-side-pest-control           /upper-west-side                   301
+/upper-west-side-pest-control/          /upper-west-side                   301
+/riverdale-pest-control                 /riverdale                         301
+/riverdale-pest-control/                /riverdale                         301
+/jersey-city-pest-control               /jersey-city                       301
+/jersey-city-pest-control/              /jersey-city                       301
+
+# ─────────────────────────────────────────
+# SPECIFIC OLD WORDPRESS PAGES STILL INDEXED
+# ─────────────────────────────────────────
+
+# Old contact.html (static file found in search results)
+/contact.html                           /contact                           301
+
+# ─────────────────────────────────────────
+# STORE / PRODUCTS
+# ─────────────────────────────────────────
+/store                                  /harlem-store                      301
+/store/                                 /harlem-store                      301
+/shop                                   /harlem-store                      301
+/shop/                                  /harlem-store                      301
+/retail                                 /harlem-store                      301
+/retail/                                /harlem-store                      301
+/products                               /harlem-store                      301
+/products/                              /harlem-store                      301
+
+# ─────────────────────────────────────────
+# EMERGENCY / MISC CATCH
+# ─────────────────────────────────────────
+
+# Wrong-URL pages -> correct pages
+
+# Additional missing redirects for Google 404s
+/efficient-pest-control-services-in-lower-manhattan-ny/ /manhattan-pest-control  301
+/efficient-pest-control-services-in-lower-manhattan-ny  /manhattan-pest-control  301
+/apartment-pest-control/                                /property-management  301
+/apartment-pest-control                                 /property-management  301
+
+# ─────────────────────────────────────────
+# DELETED PAGES — WordPress blog tags/categories -> /blog
+# ─────────────────────────────────────────
+/Blog/tag/:splat                                        /blog  301
+/Blog/category/:splat                                   /blog  301
+/wp-content/:splat                                      /  301
+/wp-admin/:splat                                        /  301
+/wp-login.php                                           /  301
+/feed                                                   /blog  301
+/feed/                                                  /blog  301
+/rss                                                    /blog  301
+/sitemap_index.xml                                      /sitemap.xml  301
+
+# DELETED NEIGHBORHOOD PAGES -> parent borough
+/fordham-heights-pest-control                           /bronx-pest-control  301
+/fordham-heights-pest-control/                          /bronx-pest-control  301
+/inwood-pest-control                                    /harlem  301
+/inwood-pest-control/                                   /harlem  301
+/kingsbridge-pest-control                               /bronx-pest-control  301
+/kingsbridge-pest-control/                              /bronx-pest-control  301
+/morningside-heights-pest-control                       /harlem  301
+/morningside-heights-pest-control/                      /harlem  301
+/financial-district-pest-control                        /fidi-pest-control  301
+/financial-district-pest-control/                       /fidi-pest-control  301
+/chelsea-pest-control                                   /harlem  301
+/chelsea-pest-control/                                  /harlem  301
+/murray-hill-pest-control                               /midtown-pest-control  301
+/murray-hill-pest-control/                              /midtown-pest-control  301
+/flatiron-pest-control                                  /gramercy-pest-control  301
+/flatiron-pest-control/                                 /gramercy-pest-control  301
+/lower-east-side-pest-control                           /east-village  301
+/lower-east-side-pest-control/                          /east-village  301
+/upper-manhattan-pest-control                           /harlem  301
+/upper-manhattan-pest-control/                          /harlem  301
+/park-slope-pest-control                                /brooklyn-pest-control  301
+/park-slope-pest-control/                               /brooklyn-pest-control  301
+/bushwick-pest-control                                  /brooklyn-pest-control  301
+/bushwick-pest-control/                                 /brooklyn-pest-control  301
+/crown-heights-pest-control                             /brooklyn-pest-control  301
+/crown-heights-pest-control/                            /brooklyn-pest-control  301
+/bed-stuy-pest-control                                  /brooklyn-pest-control  301
+/bed-stuy-pest-control/                                 /brooklyn-pest-control  301
+/flatbush-pest-control                                  /brooklyn-pest-control  301
+/flatbush-pest-control/                                 /brooklyn-pest-control  301
+/astoria-pest-control                                   /queens-pest-control  301
+/astoria-pest-control/                                  /queens-pest-control  301
+/flushing-pest-control                                  /queens-pest-control  301
+/flushing-pest-control/                                 /queens-pest-control  301
+/jackson-heights-pest-control                           /queens-pest-control  301
+/jackson-heights-pest-control/                          /queens-pest-control  301
+/long-island-city-pest-control                          /queens-pest-control  301
+/long-island-city-pest-control/                         /queens-pest-control  301
+/south-bronx-pest-control                               /bronx-pest-control  301
+/south-bronx-pest-control/                              /bronx-pest-control  301
+/hunts-point-pest-control                               /bronx-pest-control  301
+/hunts-point-pest-control/                              /bronx-pest-control  301
+
+# ─────────────────────────────────────────
+# SPAM / HACK REMNANTS (410 Gone)
+# ─────────────────────────────────────────
+/stats/*                                /                                  410
+
+# ─────────────────────────────────────────
+# OLD BLOG CAPITALIZED PATHS (WordPress case variant)
+# ─────────────────────────────────────────
+
+# ─────────────────────────────────────────
+# SERVICE-AREAS SLUG VARIANTS (Google still crawling)
+# ─────────────────────────────────────────
+/service-areas/mott-haven               /bronx-pest-control                301
+/service-areas/mott-haven/              /bronx-pest-control                301
+/service-areas/kingsbridge              /bronx-pest-control                301
+/service-areas/kingsbridge/             /bronx-pest-control                301
